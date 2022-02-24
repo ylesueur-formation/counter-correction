@@ -29,12 +29,7 @@ export default class App extends React.Component {
         // <>: React.Fragment. On peut aussi mettre une div si on veut
         <>
           <h1>Counter</h1>
-          <Counter 
-            count={this.state.count}
-            decrementCount={
-              this.decrementCount} 
-            incrementer={
-              this.incrementCount}/>
+          <Counter count={this.state.count} decrementCount={this.decrementCount} incrementer={this.incrementCount}/>
         </>
       );
     }
